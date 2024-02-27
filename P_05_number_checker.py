@@ -2,7 +2,7 @@
 # enter a number that is more than zero
 def num_check(question):
 
-    error = "Please enter a number that is more than zero\n"
+    error = f"Please enter a number that is more than zero\n"
     while True:
         try:
             # Ask the user for a number
